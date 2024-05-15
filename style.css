@@ -1,68 +1,63 @@
-header {
-    background-color: #383D58;
-    color: white;
-    display:flex;
-    justify-content: space-around;
-    }
-    
-    .cabecalho {
-    background-color: #383D58;
-    color: white;
-    justify-content: space-around;
-    padding: 24px 0;
-    }
-    
-    .cabecalho-lista-item{
-     display: inline-block;
-     margin: 0 16px;
-    padding: 24px 0; 
-    font-size: 24px;
-    }
-    
-    * {
+* {
     margin: 0;
     padding: 0;
     }
-    
-    .escola-imagem{
-     width:25%;
+
+body {
+    font-family: 'Poppins', san;
+}
+header {
+    background-color: #383d58;
+    color: white;
+}
+.cabecalho-imagem{
+    width: 20%;
+    height: 20%;
+    margin: 18px 0;
+}
+.cabecalho-lista{
+    display: inline-block;
+    margin: 0 16px;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 24px;
     }
-    
-    .escola {
-     background-image: linear-gradient(#383D58,#00c0eb);
+.cabecalho {
+    background-color: #383D58;
     color: white;
     display:flex;
+    justify-content: space-around;
+    }
+
+.escola-imagem {
+    width: 25%;
+}
+
+.escola {
+    background-image: linear-gradient(#383d58, #00c0eb);
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-    }
-    
-    .escola-titulo {
+}
+.escola-titulo {
     padding: 24px 0;
-    }
+}
+.escola-conteudo {
+    width: 35%;
+}
+.estudante-imagem {
+    width: 190px;
+}
+.estudante-icone {
+    width: 24px;
+}
 
-    body{
-        font-family:’Poppins’,sans-serif;
-        }
-        .estudante-todos {
-            display:grid;
-grid-template-columns: 20% 20% 20% 20%;
-            }
-        .estudante-titulo{
-            text-align: center;
-padding: 50px 0;
-            }
-        .estudante-div {
-            text-align: center;
-            }
-        .estudante-imagem{
-            width: 120px;
-            }
-            .estudante-icone{
-                width:24px;
-                }
-                footer{
-                    background-color: black;
-                    padding: 15px 0;
-                    text-align: center;
-                    }
+.estudante-todos {
+    display: flex;
+    padding: 40px 0;
+}
+footer {
+    background-color: black;
+}
